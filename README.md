@@ -1,0 +1,1 @@
+# ng-redux-typescript-test
