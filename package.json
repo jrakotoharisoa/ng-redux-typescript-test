@@ -1,0 +1,36 @@
+{
+  "name": "ng-redux-typescript-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "webpack --config webpack.config.js",
+    "start": "webpack-dev-server --content-base build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrakotoharisoa/ng-redux-typescript-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrakotoharisoa/ng-redux-typescript-test/issues"
+  },
+  "homepage": "https://github.com/jrakotoharisoa/ng-redux-typescript-test#readme",
+  "dependencies": {
+    "@types/angular": "^1.6.32",
+    "@types/node": "^8.0.26",
+    "angular": "^1.6.6",
+    "html-webpack-plugin": "^2.30.1",
+    "ng-redux": "^3.5.0",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^2.3.4",
+    "tslint": "^5.7.0",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
